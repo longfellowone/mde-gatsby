@@ -4,6 +4,7 @@ import Img from "gatsby-image"
 const IndexPage = ({ data }) => {
   return (
     <>
+      {/* Hero start */}
       <div className="max-w-screen-xl mx-auto">
         <div className="relative bg-white overflow-hidden">
           <div className="max-w-screen-xl mx-auto">
@@ -129,6 +130,7 @@ const IndexPage = ({ data }) => {
           </div>
         </div>
       </div>
+      {/* Hero end */}
     </>
   )
 }
