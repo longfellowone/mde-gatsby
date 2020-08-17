@@ -1,15 +1,9 @@
 import React from "react"
-import { Helmet } from "react-helmet"
 import Img from "gatsby-image"
-
-import "../css/index.css"
 
 const IndexPage = ({ data }) => {
   return (
     <>
-      <Helmet>
-        <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
-      </Helmet>
       {/* <h1 className="bg-purple-500 text-white text-6xl font-bold text-center">
         Hello world!
       </h1> */}
